@@ -1,0 +1,8 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data/hubmap_1024_1024/train
+train: train_imgs.txt
+val: val_imgs.txt
+
+# number of classes
+nc: 1
+names: ["normal"]
